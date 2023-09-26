@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@400;700&family=League+Spartan:wght@400;700&display=swap');
+
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 375px) {
+  .App {
+    max-height: max-content;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'League Spartan';
+    background-color: #070724;
+    color: white;
+  }
+
+  .header {
+    width: 100%;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.2)
+  }
+
+  .header svg {
+    display: block;
+  }
+
+  .title {
+    font-family: 'Antonio';
+    font-size: 28px;
+    letter-spacing: -1.05px;
+  }
+
+  .menu {
+    width: 100%;
+    height: 100%;
+    margin: 24px 0 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 24px;
+    overflow: hidden;
+  }
+
+  .planets {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 21px;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.1)
+  }
+
+  .planets:last-child {
+    border: unset;
+  }
+
+  .left {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .planet-size {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+
+  .mercury-color {
+    background-color: #DEF4FC;
+  }
+
+  .venus-color {
+    background-color: #F7CC7F;
+  }
+
+  .earth-color {
+    background-color: #545BFE;
+  }
+
+  .mars-color {
+    background-color: #FF6A45;
+  }
+
+  .jupiter-color {
+    background-color: #ECAD7A;
+  }
+
+  .saturn-color {
+    background-color: #FCCB6B;
+  }
+
+  .uranus-color {
+    background-color: #65F0D5;
+  }
+
+  .neptune-color {
+    background-color: #497EFA;
+  }
+
+  .planet-name {
+    font-family: 'League Spartan';
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1.364px;
+  }
+
+  .about-planet {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-planet-header {
+    width: 100%;
+    padding: 20px 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.2)
+  }
+
+  .about-planet-title {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-planet-title p {
+    font-family: 'League Spartan';
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 1.929px;
+  }
+
+  .about-planet-title hr {
+    width: 75px;
+    height: 4px;
+    margin-top: 16px;
+    border: unset;
+  }
+}
