@@ -1,5 +1,5 @@
 [
-  {
+    {
     "name": "Mercury",
     "overview": {
       "content": "Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. Mercury is one of four terrestrial planets in the Solar System, and is a rocky body like Earth.",
@@ -22,7 +22,8 @@
       "internal": "./assets/planet-mercury-internal.svg",
       "geology": "./assets/geology-mercury.png"
     },
-    "color": "#DEF4FC"
+    "menu-color": "#DEF4FC",
+    "color": "#419EBB"
   },
   {
     "name": "Venus",
@@ -47,7 +48,8 @@
       "internal": "./assets/planet-venus-internal.svg",
       "geology": "./assets/geology-venus.png"
     },
-    "color": "#F7CC7F"
+    "menu-color": "#F7CC7F",
+    "color": "#EDA249"
   },
   {
     "name": "Earth",
@@ -72,7 +74,8 @@
       "internal": "./assets/planet-earth-internal.svg",
       "geology": "./assets/geology-earth.png"
     },
-    "color": "#545BFE"
+    "menu-color": "#545BFE",
+    "color": "#6D2ED5"
   },
   {
     "name": "Mars",
@@ -97,7 +100,8 @@
       "internal": "./assets/planet-mars-internal.svg",
       "geology": "./assets/geology-mars.png"
     },
-    "color": "#FF6A45"
+    "menu-color": "#FF6A45",
+    "color": "#D14C32"
   },
   {
     "name": "Jupiter",
@@ -122,7 +126,8 @@
       "internal": "./assets/planet-jupiter-internal.svg",
       "geology": "./assets/geology-jupiter.png"
     },
-    "color": "#ECAD7A"
+    "menu-color": "#ECAD7A",
+    "color": "#D83A34"
   },
   {
     "name": "Saturn",
@@ -147,7 +152,8 @@
       "internal": "./assets/planet-saturn-internal.svg",
       "geology": "./assets/geology-saturn.png"
     },
-    "color": "#FCCB6B"
+    "menu-color": "#FCCB6B",
+    "color": "#CD5120"
   },
   {
     "name": "Uranus",
@@ -172,7 +178,8 @@
       "internal": "./assets/planet-uranus-internal.svg",
       "geology": "./assets/geology-uranus.png"
     },
-    "color": "#65F0D5"
+    "menu-color": "#65F0D5",
+    "color": "#1EC1A2"
   },
   {
     "name": "Neptune",
@@ -197,6 +204,7 @@
       "internal": "./assets/planet-neptune-internal.svg",
       "geology": "./assets/geology-neptune.png"
     },
-    "color": "#497EFA"
+    "menu-color": "#497EFA",
+    "color": "#2D68F0"
   }
 ]
