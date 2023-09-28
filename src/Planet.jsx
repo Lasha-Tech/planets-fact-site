@@ -8,8 +8,7 @@ const Planet = ({ hamburger }) => {
   const [structure, setStructure] = useState(false);
   const [surface, setSurface] = useState(false);
 
-
-
+  
   //Overview Click Function
   const handleClickOverview = () => {
     setOverview(true);
@@ -28,8 +27,6 @@ const Planet = ({ hamburger }) => {
     setStructure(false);
     setSurface(true);
   };
-
-
 
 
   return (
@@ -236,7 +233,6 @@ const Planet = ({ hamburger }) => {
             </div>
 
 
-
             {/* Main For Tablet, Desktop  */}
             <div className="main-clone">
                {overview? (
@@ -304,7 +300,7 @@ const Planet = ({ hamburger }) => {
 
                     <div className="planet-filter">
                       {/* Overview  */}
-                      <div className="filter" onClick={() => handleClickOverview()}
+                      <div className="filter" onClick={() => handleClickOverview()} 
                       style={{ backgroundColor: overview ?  planets.color: '#070724'}}>
                         <p className="filter-number">01</p>
                         <p className="filter-text">Overview</p>

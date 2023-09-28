@@ -15,6 +15,13 @@ function App() {
       setHamburger(!hamburger);
     }
   };
+  //Planet Title Mouse Events
+  const handleMouseoverPlanetTitle = (e, color) => {
+    e.target.style.borderTopColor = `${color}`
+ }
+  const handleMouseoutPlanetTitle = (e) => {
+    e.target.style.borderTopColor = '#070724'
+  }
 
   return (
     <Router>
@@ -42,7 +49,12 @@ function App() {
             {jsonFile.map((planet) => {
             return (
               <Link to={"/data/" + planet.name} key={Math.random()}>
-                <p className="planet-link">{planet.name}</p>
+                <p onMouseOver={(e) => handleMouseoverPlanetTitle(e, planet.color)}
+                onMouseOut={(e) => handleMouseoutPlanetTitle(e)}
+                style={{borderTopColor: '#070724'}}
+                className="planet-link">
+                  {planet.name}
+                </p>
               </Link>
             )
             })}
