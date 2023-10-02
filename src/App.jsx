@@ -1,11 +1,11 @@
 import { useState } from "react";
-import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, Routes, Navigate } from "react-router-dom";
 import Planet from "./Planet";
 import jsonFile from "./data.json";
 
 
 function App() {
-  const [hamburger, setHamburger] = useState(false);
+  const [hamburger, setHamburger] = useState(true);
 
   //Hamburger Click Event
   const handleClickHamburger = () => {
@@ -100,6 +100,7 @@ function App() {
 
 
         <Routes>
+          <Route path="/" element={<Navigate to='/data/Mercury'/>}/>
           <Route
             path="/data/:name"
             element={<Planet hamburger={hamburger} />}
