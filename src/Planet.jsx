@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { useState } from "react";
 import jsonFile from "./data.json";
 import styled, { css } from "styled-components";
-
+/////
 const Planet = ({ hamburger }) => {
   const { name } = useParams();
   const [overview, setOverview] = useState(true);
@@ -335,7 +335,7 @@ const Planet = ({ hamburger }) => {
                 {/* Main Footer  */}
                 <div className="footer-containers">
                   <div className="planet-details">
-                    {/* 1  */}
+                  {/* 1  */}
                     <p className="details-title">ROTATION TIME</p>
                     <p className="details-number">{planets.rotation}</p>
                   </div>
